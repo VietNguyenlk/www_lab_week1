@@ -11,6 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-<a >Hello kk</a>
+<form action="controllerServlet" method="post">
+    <a href=""> Đăng nhập  </a>
+    <input type="text" size="30px">
+</form>
+
 </body>
 </html>

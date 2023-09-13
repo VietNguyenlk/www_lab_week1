@@ -7,11 +7,11 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/controllerServlet")
+@WebServlet(urlPatterns = {"/controllerServlet"})
 public class ControllerServlet extends HttpServlet {
 
     public  void  doGet(HttpServletRequest reg, HttpServletResponse ro) throws IOException {
-
+        ro.getWriter().println("xin chao cac ban");
     }
 
     public  void doPost(HttpServletRequest reg, HttpServletResponse ro )throws IOException {
