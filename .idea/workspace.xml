@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff89c0a-91b3-4c02-87ab-65272080d92d" name="Changes" comment="fix gdien dang nhap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/test.java" afterDir="false" />
+    <list default="true" id="3ff89c0a-91b3-4c02-87ab-65272080d92d" name="Changes" comment="danh sach account, them account">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/ConnectionDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/gui.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/gui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/ControllerServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -96,7 +92,7 @@
       <recent name="T:\NguyenVanViet\labs\week_01\week01_lab_NguyenVanViet_20086941\src\main\webapp\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.11">
     <configuration name="ConnectionDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vn.edu.iuh.fit.repositories.ConnectionDB" />
       <module name="week01_lab_NguyenVanViet_20086941.main" />
@@ -246,7 +242,7 @@
       <workItem from="1694621762163" duration="1600000" />
       <workItem from="1694668562990" duration="727000" />
       <workItem from="1694673248781" duration="6535000" />
-      <workItem from="1694694735840" duration="7777000" />
+      <workItem from="1694694735840" duration="11335000" />
     </task>
     <task id="LOCAL-00001" summary="connect database, viet cac class">
       <option name="closed" value="true" />
@@ -272,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694675533760</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="danh sach account, them account">
+      <option name="closed" value="true" />
+      <created>1694705308601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694705308601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +286,8 @@
     <MESSAGE value="connect database, viet cac class" />
     <MESSAGE value="giao dien dang nhap nhung bi lech so voi vscode" />
     <MESSAGE value="fix gdien dang nhap" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix gdien dang nhap" />
+    <MESSAGE value="danh sach account, them account" />
+    <option name="LAST_COMMIT_MESSAGE" value="danh sach account, them account" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
