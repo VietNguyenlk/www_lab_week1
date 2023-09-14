@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff89c0a-91b3-4c02-87ab-65272080d92d" name="Changes" comment="connect database, viet cac class">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___vn_edu_iuh_fit___week01_lab_NguyenVanViet_20086941_1_0_SNAPSHOT_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___vn_edu_iuh_fit___week01_lab_NguyenVanViet_20086941_1_0_SNAPSHOT_war__exploded_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/CSS/login.css" afterDir="false" />
+    <list default="true" id="3ff89c0a-91b3-4c02-87ab-65272080d92d" name="Changes" comment="giao dien dang nhap nhung bi lech so voi vscode">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/gui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/account.jsp" afterDir="false" />
     </list>
@@ -39,8 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -70,9 +67,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -228,7 +225,9 @@
       <workItem from="1694597037335" duration="4393000" />
       <workItem from="1694605460134" duration="1001000" />
       <workItem from="1694607034418" duration="1222000" />
-      <workItem from="1694621762163" duration="1304000" />
+      <workItem from="1694621762163" duration="1600000" />
+      <workItem from="1694668562990" duration="727000" />
+      <workItem from="1694673248781" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="connect database, viet cac class">
       <option name="closed" value="true" />
@@ -238,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694607616694</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="giao dien dang nhap nhung bi lech so voi vscode">
+      <option name="closed" value="true" />
+      <created>1694623274932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694623274932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +253,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect database, viet cac class" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect database, viet cac class" />
+    <MESSAGE value="giao dien dang nhap nhung bi lech so voi vscode" />
+    <option name="LAST_COMMIT_MESSAGE" value="giao dien dang nhap nhung bi lech so voi vscode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
