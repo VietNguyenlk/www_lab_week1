@@ -1,18 +1,18 @@
 package vn.edu.iuh.fit.models;
 
 public class Account {
-    private int id;
+    private String id;
     private String fullName;
-    private int passWord;
+    private String passWord;
     private String email;
     private int phone;
     private int status;
 
-    public int getId() {
+    public String  getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String  id) {
         this.id = id;
     }
 
@@ -24,11 +24,11 @@ public class Account {
         this.fullName = fullName;
     }
 
-    public int getPassWord() {
+    public String getPassWord() {
         return passWord;
     }
 
-    public void setPassWord(int passWord) {
+    public void setPassWord(String  passWord) {
         this.passWord = passWord;
     }
 
@@ -56,7 +56,7 @@ public class Account {
         this.status = status;
     }
 
-    public Account(int id, String fullName, int passWord, String email, int phone, int status) {
+    public Account(String  id, String fullName, String  passWord, String email, int phone, int status) {
         this.id = id;
         this.fullName = fullName;
         this.passWord = passWord;

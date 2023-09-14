@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff89c0a-91b3-4c02-87ab-65272080d92d" name="Changes" comment="giao dien dang nhap nhung bi lech so voi vscode">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/gui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="3ff89c0a-91b3-4c02-87ab-65272080d92d" name="Changes" comment="fix gdien dang nhap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/account.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/gui.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/gui.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,10 +72,11 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowProblems.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/WWW Java/www_lab_week1/src/main/webapp/account.jsp",
+    "last_opened_file_path": "D:/WWW Java/ThamKhao/week01_lab_PhanHoaiAn_20012781",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
@@ -93,13 +96,26 @@
       <recent name="T:\NguyenVanViet\labs\week_01\week01_lab_NguyenVanViet_20086941\src\main\webapp\" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.11">
+  <component name="RunManager" selected="Application.test">
     <configuration name="ConnectionDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vn.edu.iuh.fit.repositories.ConnectionDB" />
       <module name="week01_lab_NguyenVanViet_20086941.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="vn.edu.iuh.fit.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vn.edu.iuh.fit.controllers.test" />
+      <module name="week01_lab_NguyenVanViet_20086941.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.edu.iuh.fit.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +214,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.test" />
       <item itemvalue="Application.ConnectionDB" />
       <item itemvalue="JavaScript Debug.account.jsp" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.ConnectionDB" />
         <item itemvalue="JavaScript Debug.account.jsp" />
       </list>
@@ -227,7 +245,8 @@
       <workItem from="1694607034418" duration="1222000" />
       <workItem from="1694621762163" duration="1600000" />
       <workItem from="1694668562990" duration="727000" />
-      <workItem from="1694673248781" duration="2209000" />
+      <workItem from="1694673248781" duration="6535000" />
+      <workItem from="1694694735840" duration="7777000" />
     </task>
     <task id="LOCAL-00001" summary="connect database, viet cac class">
       <option name="closed" value="true" />
@@ -245,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694623274932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix gdien dang nhap">
+      <option name="closed" value="true" />
+      <created>1694675533760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694675533760</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect database, viet cac class" />
     <MESSAGE value="giao dien dang nhap nhung bi lech so voi vscode" />
-    <option name="LAST_COMMIT_MESSAGE" value="giao dien dang nhap nhung bi lech so voi vscode" />
+    <MESSAGE value="fix gdien dang nhap" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix gdien dang nhap" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

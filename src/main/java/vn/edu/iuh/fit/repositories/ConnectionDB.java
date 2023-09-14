@@ -1,8 +1,11 @@
 package vn.edu.iuh.fit.repositories;
 
+import vn.edu.iuh.fit.models.Account;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.List;
 
 public class ConnectionDB {
     private static ConnectionDB instance;
@@ -54,5 +57,6 @@ public class ConnectionDB {
 //
 //
 //    }
+
 
 }
