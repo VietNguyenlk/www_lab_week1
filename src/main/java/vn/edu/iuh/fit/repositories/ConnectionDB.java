@@ -7,12 +7,15 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.List;
 
+import static java.lang.Class.*;
+
 public class ConnectionDB {
     private static ConnectionDB instance;
     private final Connection connection;
 
 
-    private ConnectionDB() throws SQLException {
+    private ConnectionDB() throws SQLException, ClassNotFoundException {
+        forName("org.mariadb.jdbc.Driver");
         String url = "jdbc:mariadb://localhost:3306/mydb";
         connection = DriverManager.getConnection(url, "root", "sapassword");
 //        if (connection != null) {
@@ -20,7 +23,7 @@ public class ConnectionDB {
 //        }
     }
 
-    public static ConnectionDB getInstance() throws SQLException {
+    public static ConnectionDB getInstance() throws SQLException, ClassNotFoundException {
         if (instance == null)
             instance = new ConnectionDB();
         return instance;

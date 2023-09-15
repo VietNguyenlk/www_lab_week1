@@ -12,7 +12,7 @@ import java.util.List;
 public class AccountRepository {
     private Connection connection;
 
-    public AccountRepository() throws SQLException {
+    public AccountRepository() throws SQLException, ClassNotFoundException {
         connection = ConnectionDB.getInstance().getConnection();
     }
 
