@@ -60,6 +60,27 @@ public class AccountRepository {
 
         return false;
     }
+    // check login
+    public Account checkLogin(String userName, String pass) throws SQLException {
+        String sql = "select * from account where full_name = ? and password = ?";
+        try {
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1,userName);
+            ps.setString(2,pass);
+            ResultSet rs = ps.executeQuery();
+            while(rs.next()){
+                Account a = new Account(rs.getString(1),rs.getString(2));
+                return a;
+            }
+
+
+
+        }catch (Exception e){
+            e.printStackTrace();
+
+        }
+        return null;
+    }
 
 
 

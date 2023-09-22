@@ -65,6 +65,11 @@ public class Account {
         this.status = status;
     }
 
+    public Account(String fullName, String passWord) {
+        this.fullName = fullName;
+        this.passWord = passWord;
+    }
+
     public Account() {
     }
 

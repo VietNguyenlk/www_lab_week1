@@ -67,7 +67,7 @@
     <h1 id="login">LOGIN</h1>
 
     <div class="form-container sign-in-container">
-        <form action="">
+        <form action="logincontrol" method="post">
     </div>
     <label for="username" class="title"> User name</label>
     <input  id="username" name="username" type="text" size="30">
@@ -76,21 +76,21 @@
 
     </div>
     <label for="username" class="title"> Password</label>
-    <input  id="username" type="password" size="25">
+    <input  id="username" type="password" name="password" size="25">
     <div>
 
-    </div>
-    <label for="username" class="title"> Email</label>
-    <input  id="username" type="email" >
-    <div>
+<%--    </div>--%>
+<%--    <label for="username" class="title"> Email</label>--%>
+<%--    <input  id="username" type="email" >--%>
+<%--    <div>--%>
 
-    </div>
-    <label for="username" class="title"> Phone number</label>
-    <input  id="username" type="tel">
-    <div>
+<%--    </div>--%>
+<%--    <label for="username" class="title"> Phone number</label>--%>
+<%--    <input  id="username" type="tel">--%>
+<%--    <div>--%>
 
         <div class="form_submit">
-            <button class="rgister" type="submit">Submit</button>
+            <button class="rgister" type="submit" value="login">Submit</button>
             <button class="rgister" type="reset">Reset</button>
         </div>
 

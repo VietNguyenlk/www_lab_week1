@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff89c0a-91b3-4c02-87ab-65272080d92d" name="Changes" comment="danh sach account, them account, tao dashbroad">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dashbroad.jsp" afterDir="false" />
+    <list default="true" id="3ff89c0a-91b3-4c02-87ab-65272080d92d" name="Changes" comment="danh sach account, them account, tao dashbroad, show acc ra dashboarh">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/LoginControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/ControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/repositories/ConnectionDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/account.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,7 +80,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WWW Java/ThamKhao/week01_lab_PhanHoaiAn_20012781&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/jdk-17.0.1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -251,7 +251,9 @@
       <workItem from="1694668562990" duration="727000" />
       <workItem from="1694673248781" duration="6535000" />
       <workItem from="1694694735840" duration="11616000" />
-      <workItem from="1694744222684" duration="6015000" />
+      <workItem from="1694744222684" duration="6756000" />
+      <workItem from="1695356500567" duration="415000" />
+      <workItem from="1695357011312" duration="3652000" />
     </task>
     <task id="LOCAL-00001" summary="connect database, viet cac class">
       <option name="closed" value="true" />
@@ -293,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694711895554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="danh sach account, them account, tao dashbroad, show acc ra dashboarh">
+      <option name="closed" value="true" />
+      <created>1694753876685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694753876686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +316,8 @@
     <MESSAGE value="fix gdien dang nhap" />
     <MESSAGE value="danh sach account, them account" />
     <MESSAGE value="danh sach account, them account, tao dashbroad" />
-    <option name="LAST_COMMIT_MESSAGE" value="danh sach account, them account, tao dashbroad" />
+    <MESSAGE value="danh sach account, them account, tao dashbroad, show acc ra dashboarh" />
+    <option name="LAST_COMMIT_MESSAGE" value="danh sach account, them account, tao dashbroad, show acc ra dashboarh" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
