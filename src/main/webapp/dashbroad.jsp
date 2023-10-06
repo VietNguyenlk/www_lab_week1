@@ -95,7 +95,7 @@
 <body>
 <form action="controllerServlet" >
     <a style="margin: 20px" href="insertAccount.jsp"> Insert </a>
-    <a style="margin: 20px" href="insertAccount.jsp"> delete </a>
+    <a style="margin: 20px" href="delete.jsp"> delete </a>
     <a href="insertAccount.jsp"> update </a>
 
 </form>

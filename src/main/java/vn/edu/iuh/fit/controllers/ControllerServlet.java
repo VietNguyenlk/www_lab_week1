@@ -85,6 +85,29 @@ public class ControllerServlet extends HttpServlet {
             }
 
         }
+        // delete
+        else if (action.equals("delete_id")) {
+            try {
+                AccountRepository dao = new AccountRepository();
+              boolean rs=  dao.deleteAcc(reg.getParameter("id"));
+              PrintWriter out = ro.getWriter();
+              if(rs){
+                  out.println("delete thanh cong");
+              }
+              else {
+                  out.println("that bai");
+              }
+              List<Account> listacc = dao.getAllAccount();
+              reg.setAttribute("account",listacc);
+              reg.getRequestDispatcher("/dashbroad.jsp").forward(reg,ro);
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            } catch (ClassNotFoundException | ServletException e) {
+                throw new RuntimeException(e);
+            }
+
+
+        }
     }
 
 }

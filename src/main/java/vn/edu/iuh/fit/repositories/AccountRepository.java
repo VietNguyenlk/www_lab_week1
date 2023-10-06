@@ -94,6 +94,22 @@ public class AccountRepository {
 //        return false;
 //    }
 
+    // delete : set status for account
+
+public boolean deleteAcc(String id) throws SQLException {
+        String sql = "update account set status = -1 where account_id = ?";
+     PreparedStatement ps = connection.prepareStatement(sql);
+     ps.setString(1,id);
+     int rs = ps.executeUpdate();
+     return  rs >0;
+
+
+}
+
+
+
+
+
 
 
 
