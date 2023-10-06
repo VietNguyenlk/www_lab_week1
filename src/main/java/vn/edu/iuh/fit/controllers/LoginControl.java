@@ -19,9 +19,9 @@ public class LoginControl extends HttpServlet {
             AccountRepository dao =  new AccountRepository();
             Account a = dao.checkLogin(user,pass);
             if(a==null){
-                ro.sendRedirect("account.jsp");
-            }else{
                 ro.sendRedirect("index.jsp");
+            }else{
+                ro.sendRedirect("account.jsp");
             }
         }catch (Exception e){
             e.printStackTrace();

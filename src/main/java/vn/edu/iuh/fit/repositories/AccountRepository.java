@@ -81,6 +81,18 @@ public class AccountRepository {
         }
         return null;
     }
+    // insert account
+//    public boolean insertAcc(Account acc) throws SQLException {
+//        String sql =" INSERT INTO account values (?,?,?,?,?,?)";
+//        PreparedStatement ps = connection.prepareStatement(sql);
+//        ps.setString(1,acc.getId());
+//        ps.setString(2,acc.getFullName());
+//        ps.setString(3,acc.getPassWord());
+//        ps.setString(4,acc.getEmail());
+//        ps.setInt(5,acc.getPhone());
+//        ps.setInt(6,acc.getStatus());
+//        return false;
+//    }
 
 
 
